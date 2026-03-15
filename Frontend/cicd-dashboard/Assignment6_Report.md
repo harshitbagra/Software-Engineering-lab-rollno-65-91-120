@@ -1,12 +1,10 @@
 # CS 331 (Software Engineering Lab)
 # Assignment 6 — User Interface Design & Implementation
-**Total Marks: 20**
 **Project: Automated CI/CD Pipeline with Intelligent Failure Recovery**
 
 ---
 
 ## Part I — Choose an Appropriate UI for Your Software Engineering Project and Justify Your Choice
-**[Marks = 10]**
 
 ---
 
@@ -106,7 +104,6 @@ The **Direct Manipulation Interface** implemented as a **React web-based dashboa
 ---
 
 ## Part II — Implement the UI Code Components and Show the User Interactions with Your Software
-**[Marks = 10]**
 
 ---
 
@@ -278,31 +275,6 @@ The following table shows all major user interactions implemented in the dashboa
 
 ---
 
-### 2.5 How to Run the Project
-
-**Requirements:**
-- Node.js v18 or higher — download from https://nodejs.org
-- Any modern browser (Chrome, Edge, Firefox)
-
-**Steps:**
-```bash
-# 1. Navigate to project folder
-cd "C:\Users\lalli\OneDrive\Desktop\software lab\Frontend\cicd-dashboard\cicd-dashboard"
-
-# 2. Install dependencies (only needed once)
-npm install
-
-# 3. Start development server
-npm run dev
-
-# 4. Open browser at
-http://localhost:5173
-```
-
-**To stop the server:** Press `Ctrl + C` in the terminal.
-
----
-
 ### 2.6 Summary
 
 The implemented React + Vite dashboard fully covers all 9 functional requirements of the Automated CI/CD Pipeline system across 8 dedicated pages and 21 source files. The Direct Manipulation Interface paradigm enables both Developer and Admin users to interact with the system efficiently, with real-time visual feedback for every action and clear representation of pipeline health, failure analysis, and recovery status.
@@ -310,5 +282,3 @@ The implemented React + Vite dashboard fully covers all 9 functional requirement
 The component-based architecture directly mirrors the modular design defined in the UML Class Diagram — each page corresponds to a class (`BuildManager`, `FailureAnalyzer`, `RecoveryManager`, `ReportGenerator`) and each reusable UI component demonstrates the **Separation of Concerns** principle from the Layered Architecture design.
 
 ---
-
-*End of Assignment 6*
