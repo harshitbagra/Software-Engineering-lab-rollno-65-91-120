@@ -10,3 +10,4 @@ class CICDPipeline:
     def update_status(self, new_status):
         self.status = new_status
         print("Pipeline Status:", self.status)
+        print("Pipeline Status:", self.status)
