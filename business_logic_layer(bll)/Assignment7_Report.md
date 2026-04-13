@@ -2,7 +2,7 @@
 # Business Logic Layer (BLL)
 **Project: Automated CI/CD Pipeline with Intelligent Failure Recovery**
 
-*Note: As this project is a React-based frontend demo, the Python EC2 backend prescribed in the original Assignment 5 system architecture is simulated using JavaScript modules in the `src/bll/` directory. These module files act precisely as the Business Logic Layer, handling all verification, computation, and transformation, decoupled from the React UI components.*
+*Note: As this project is a React-based frontend demo, the Python EC2 backend prescribed in the original  system architecture is simulated using JavaScript modules in the `src/bll/` directory. These module files act precisely as the Business Logic Layer, handling all verification, computation, and transformation, decoupled from the React UI components.*
 
 ---
 
